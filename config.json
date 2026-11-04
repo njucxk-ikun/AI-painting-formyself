@@ -1,0 +1,12 @@
+{
+  "openai_base_url": "https://xcode.best/v1",
+  "openai_image_model": "gpt-image-2",
+  "openai_image_quality": "high",
+  "openai_image_response_format": "url",
+  "output_directory": "generated_images",
+  "proxy": {
+    "http": "http://127.0.0.1:7890",
+    "https": "http://127.0.0.1:7890"
+  },
+  "clip_model": "ViT-B/32"
+}

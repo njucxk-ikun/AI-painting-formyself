@@ -1,0 +1,32 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Runtime state, personal projects, generated images and API traces
+workspace/
+generated_images/
+
+# Local development artifacts
+__pycache__/
+*.py[cod]
+.venv/
+.ruff_cache/
+.pytest_cache/
+.vscode/
+.streamlit/secrets.toml
+*.log
+
+# Private source materials and internal handoff documents
+需求以及参考文档/
+快速启动.md
+交付说明.md
+测试报告.md
+问题修复报告.md
+验收报告.md
+知识库架构与构建报告.md
+
+# Maintenance scripts require private source indexes and build archives
+/build_knowledge.py
+/extend_anime_knowledge.py
+/review_knowledge.py
